@@ -1,0 +1,28 @@
+{
+  "name": "idyll-embed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "idyll-components": "^3.3.0",
+    "idyll-document": "^2.12.3",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-rc.2",
+    "@babel/preset-env": "^7.0.0-rc.2",
+    "@babel/preset-react": "^7.0.0-rc.2",
+    "babelify": "^9.0.0",
+    "browserify": "^16.2.2",
+    "uglify-js": "^3.4.8",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0"
+  }
+}
