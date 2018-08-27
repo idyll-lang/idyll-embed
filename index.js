@@ -1,9 +1,20 @@
-const React = require('react');
-const ReactDOM = require('react-dom');
-const IdyllDocument = require('idyll-document').default;
-const IdyllComponents = require('idyll-components');
+import React from 'react';
+import ReactDOM from 'react-dom';
+import IdyllDocument from 'idyll-document';
+import * as IdyllComponents from 'idyll-components';
 
-let components = IdyllComponents;
+/**
+ * Update this to add your own custom component. For example:
+ *
+ *  import MyComponent from './my-custom-component.js';
+ *
+ *  let components = Object.assign({}, IdyllComponents, {
+ *    MyComponent: MyComponent
+ *  })
+ */
+ let components = Object.assign({}, IdyllComponents, {
+   // put more components here
+ });
 
 const Idyll = {
   render: function(markup, container, options = {}) {
