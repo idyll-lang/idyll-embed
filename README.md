@@ -19,7 +19,7 @@ Embed Idyll directly in an HTML page
       // Get your markup.
       var idyllMarkup = '# Hello World';
 
-      // This will make all standard components available by default.
+      // All standard components are available by default.
       // To add additional components, register them.
       Idyll.registerComponent('ComponentName', Component);
 
