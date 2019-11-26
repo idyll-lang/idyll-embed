@@ -2,7 +2,18 @@
 <html lang="en" dir="ltr">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <style>
+      html, body {
+        padding: 0;
+        margin: 0;
+      }
+
+      .idyll-root {
+        padding: 0 !important;
+      }
+    </style>
   </head>
+
   <body>
     <script src="dist/idyll-embed.min.js"></script>
     <script>
@@ -12,9 +23,11 @@
 
       // Get your markup.
       var idyllMarkup = `
-      # Hello World
+      [Header title:"Hello World" author:"Matthew Conlen" fullWidth:true  /]
 
-      [div style:\`{width: '100%', background: '#ddd', height: 300}\` /]
+      Normal paragraph text.
+
+      ## Subheader
 
       `;
 
@@ -24,8 +37,10 @@
 
       // Instantiate the Idyll runtime.
       Idyll.render(idyllMarkup, div, {
-        theme: 'none',
-        layout: 'none'
+        theme: 'default',
+        layout: 'centered',
+        injectThemeCSS: true,
+        injectLayoutCSS: true
       });
     </script>
   </body>
