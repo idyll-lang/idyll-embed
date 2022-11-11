@@ -24,6 +24,6 @@
     "browserify": "^16.2.2",
     "uglify-js": "^3.4.8",
     "webpack": "^4.17.1",
-    "webpack-cli": "^3.1.0"
+    "webpack-cli": "^3.3.12"
   }
 }
