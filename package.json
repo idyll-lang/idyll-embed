@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "babel-loader": "^8.0.0",
+    "babel-loader": "^8.3.0",
     "idyll-components": "^3.11.1",
     "idyll-document": "^3.1.9",
     "react": "^16.4.2",
@@ -23,7 +23,7 @@
     "babelify": "^9.0.0",
     "browserify": "^16.2.2",
     "uglify-js": "^3.4.8",
-    "webpack": "^4.17.1",
-    "webpack-cli": "^3.1.0"
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
   }
 }
